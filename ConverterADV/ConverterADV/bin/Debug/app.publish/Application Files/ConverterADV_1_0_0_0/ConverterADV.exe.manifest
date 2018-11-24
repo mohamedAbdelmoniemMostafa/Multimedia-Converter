@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConverterADV.exe" version="1.0.0.0" publicKeyToken="fc1c65660efc10cb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="if_headphone_1214646.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConverterADV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConverterADV.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.4.dll" size="227840">
+      <assemblyIdentity name="Bunifu_UI_v1.4" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EygWHIT/XnObYQtDBRpet/2PKm9kPJsxY/LqbzX87Xk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConverterADV.exe" size="799136">
+      <assemblyIdentity name="ConverterADV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VZTKcaJr0LtEbTNqlj9VBHe1Vfltck9YI2JDQzw2dbI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NReco.VideoConverter.dll" size="13765120">
+      <assemblyIdentity name="NReco.VideoConverter" version="1.1.2.0" publicKeyToken="395CCB334978A0CD" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lFflhoAVjAQdSpgJB6vH8WpMeY5jn9y40MxdeJKy4to=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConverterADV.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="if_headphone_1214646.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>htWoJqyRwSLn7rOlEobV0OzOhe4a6pRbe/JU8UNGFbg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Mac\Mac_PC" issuerKeyHash="603685e6a750cc1ef26506c158a7aa644c24b1fe" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YSFp83lff38SwvjtkYBqDJUAccSqEm36Lx2t7U0VEtQ=</DigestValue></Reference></SignedInfo><SignatureValue>iMrlrpXNUPnzWlHB/MpIKFUXgsv52Xdj7yjO87zrXcWxJUGNtC8z9Q4gdPWO/TtH5k8hUoiBPq5tTS70wQzpVjfxy0jW8iBk7wipv6eqAfAZStu3puBNKE4Bwt8PutHR9lxZLq70njjyV59nWWKpCL1s7WwD0lHwzlrppuUxErc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>svHafzSNCrLHsv+0ux8DS3GQjcAkSkd/7Jyn3M61o2auXizO0WPPOztrUpnkNFaAg3NkPwi39gNieeM7HxGeIW+4AQgvs6eLGtd232gPI5y0YjYSyyIX13a2JraA/z98jNV62D0n3vKN6YDayikXYDsGUNtgVuWCIe6FDNgJbmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d412154dedad1d2ffa6d12aac47100950c6a8091edf8c2127f7f5f79f3692161" Description="" Url=""><as:assemblyIdentity name="ConverterADV.exe" version="1.0.0.0" publicKeyToken="fc1c65660efc10cb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Mac\Mac_PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hjgl/xG577eLRT7as9H7ajOumaZ6oidxCHJJFLNydwk=</DigestValue></Reference></SignedInfo><SignatureValue>VnbVjAAAHTN/rZAYgcU0Y12ZA4P/gKeOShO9tAkh5iIm0MHRE06irYnV7+oqWV/IrXo7AMaoCSlxQo8lgP3qMAJoYasnvtXTFbdae7lvmXyW0k7tEaXEedI/JJu+cTnWENxkt2WgMg6JKM0X0C6+zFh4v6Hd76OefbE6W5zsM3Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>svHafzSNCrLHsv+0ux8DS3GQjcAkSkd/7Jyn3M61o2auXizO0WPPOztrUpnkNFaAg3NkPwi39gNieeM7HxGeIW+4AQgvs6eLGtd232gPI5y0YjYSyyIX13a2JraA/z98jNV62D0n3vKN6YDayikXYDsGUNtgVuWCIe6FDNgJbmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQNU7xM+32MLRKgBARZLrK2jANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQATQBhAGMAXABNAGEAYwBfAFAAQzAeFw0xNzA4MjcxODUwMjBaFw0xODA4MjgwMDUwMjBaMB8xHTAbBgNVBAMeFABNAGEAYwBcAE0AYQBjAF8AUABDMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy8dp/NI0Kssey/7S7HwNLcZCNwCRKR3/snKfczrWjZq5eLM7RY887O2tSmeQ0VoCDc2Q/CLf2A2J54zsfEZ4hb7gBCC+zp4sa13bfaA8jnLRiNhLLIhfXdrYmtoD/P3yM1XrYPSfe8o3pgNrKKRdgOwZQ22BW5YIh7oUM2AluZQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFeSGxQe0NXL5eh8ubk2TLSDnDuda0AupyzTU4g/hBHK4PbXdzoQZvGgFixqoYvR38RI1dW0Ucz4ugaklesR+rJwFFktIz7BvbJjBKq6vC0Op0j8NlpBgKzueK+0691U3rZD0rNUM9yRf3mak2WsRCgqswZ3oQRDlzZ4oLj5A/YX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
